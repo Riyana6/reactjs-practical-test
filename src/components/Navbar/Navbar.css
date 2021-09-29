@@ -1,0 +1,56 @@
+.navbar {
+    height: 60px;
+    display: flex;
+    color: white;
+    justify-content: flex-end;
+    padding-right: 20px;
+}
+
+.navbarLinks {
+    display: flex;
+    list-style: none;
+    margin-left: 860px;
+    justify-content: space-between;
+}
+
+.navbarLinks > li {
+    padding-left: 1.5rem;   
+}
+
+.navbarLinks >li > a {
+    font-size: 1.2rem;
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.navbarLinks > li > a > span {
+    display: flex;
+    align-items: center;
+    margin-left: 5px;
+}
+
+.cartLink {
+    border-radius: 8px;
+    align-items: center;
+    border-color: white;
+    height: 50px;
+    width:90px;
+    background-color: black;
+    padding-left: 50px;
+    text-decoration: none;
+}
+
+
+.cartlogoBadge {
+    width: 20px;
+    height: 20px;
+    background: yellow;
+    border-radius: 58%;
+    margin-left: 8px;
+    color: black;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    text-align: center;
+}

@@ -1,0 +1,36 @@
+.home {
+    max-width: 100px;
+    margin: 0.75rem auto;
+    padding: 1px;
+}
+.homeProducts {
+    right: 0;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: space-evenly;
+}
+
+
+.homeFilter {
+    left: 60px;
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.split {
+    width: 75%;
+    position: absolute;
+}
+
+.dot {
+    height: 35px;
+    width: 35px;
+    background-color: rgb(230, 230, 230);
+    border-radius: 50%;
+    display: inline-block;
+    cursor: pointer;
+    text-align: center;
+    margin-right: 6px;
+    margin: 8px;
+    padding: 2px;
+}
